@@ -1,0 +1,155 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.4vw;
+  line-height: 1.35;
+  height: 100vh;
+  /* cursor: none; */
+  margin: 30px 40px;
+  background-color: #ededed;
+}
+
+/* GLOBAL */
+a {
+  color: #0000e4;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h2 {
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2.7vw;
+  line-height: 1.24;
+}
+
+h4 {
+  font-size: 3.03vh;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 1.4vw;
+}
+
+/* NAV */
+
+.name {
+  position: fixed;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.mobile-ig {
+  display: none;
+}
+.time {
+  position: fixed;
+  right: 40px;
+  z-index: 2;
+}
+
+.selected-link {
+  /* border-bottom: 2px solid black;
+  padding-bottom: 2px; */
+  color: black;
+  text-decoration: none;
+}
+
+/* SECTION - THE WHOLE SECTION */
+
+.project-endlink {
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+
+.project-endlink a {
+  text-decoration: none;
+  color: black;
+}
+
+/* SECTION - CASE STUDY INTRO */
+h1 {
+  font-weight: 400;
+  font-size: 7vw;
+  line-height: 1.05;
+  letter-spacing: -2px;
+}
+
+h1.project-title {
+  font-weight: 400;
+  padding-bottom: -1vh;
+  width: fit-content;
+  line-height: 0.85;
+  padding-top: 0.83em;
+}
+.role-list .roles {
+  display: flex;
+  flex-direction: row;
+}
+
+.role-list .roles p {
+  margin-right: 5vh;
+  margin-top: 0.8em;
+}
+
+.one-liner {
+  width: 80vw;
+  margin-bottom: 1.85em;
+}
+
+/* SECTION - PAGE INTRO */
+
+section.page-intro {
+  padding-top: 7vh;
+}
+
+section.page-intro div {
+  width: 48vw;
+}
+
+/* SECTION - PROJECT */
+
+.project {
+  margin: 1.8em 0;
+}
+
+.project-brief h4 {
+  max-width: 65.5%;
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+.embed-web-project {
+  width: 94vw;
+  height: 96vh;
+}
+
+.lower-project {
+  margin-top: 3em;
+}
+
+.last-project {
+  padding-bottom: 6em;
+}

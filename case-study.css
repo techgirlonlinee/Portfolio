@@ -1,0 +1,300 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.4vw;
+  line-height: 1.35;
+  height: 100vh;
+  /* cursor: none; */
+  margin: 30px 40px;
+  background-color: #ededed;
+}
+
+/* GLOBAL */
+a {
+  color: #0000e4;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h2 {
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2.7vw;
+  line-height: 1.24;
+}
+
+h4 {
+  font-size: 3.03vh;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 1.4vw;
+}
+
+/* NAV */
+
+.name {
+  position: fixed;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.mobile-ig {
+  display: none;
+}
+.time {
+  position: fixed;
+  right: 40px;
+  z-index: 2;
+}
+
+.selected-link {
+  /* border-bottom: 2px solid black;
+  padding-bottom: 2px; */
+  color: black;
+  text-decoration: none;
+}
+
+/* PROJECT NAV BAR */
+
+div.projects-nav {
+  /* position: fixed;
+  bottom: 1.8em; */
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2em;
+}
+
+.projects-nav p {
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+.projects-nav a {
+  margin-right: 0.5em;
+  color: black;
+  text-decoration: none;
+  display: flex;
+}
+
+.projects-nav a:hover {
+  text-decoration: underline;
+}
+
+a.project-selected {
+  text-decoration: underline;
+}
+
+.bullet {
+  display: flex;
+  flex-direction: row;
+  width: 0.6em;
+  height: 0.6em;
+  margin: 0.35em 0;
+  margin-right: 0.35em;
+  border-radius: 50%;
+  background-color: black;
+}
+
+/* SECTION - THE WHOLE SECTION */
+
+.project-endlink {
+  margin-top: 6em;
+  padding-bottom: 1em;
+}
+
+.project-endlink a {
+  text-decoration: none;
+  color: black;
+}
+
+/* SECTION - CASE STUDY INTRO */
+h1 {
+  font-weight: 400;
+  font-size: 7vw;
+  line-height: 1.05;
+  letter-spacing: -2px;
+}
+
+h1.project-title {
+  font-weight: 400;
+  padding-bottom: -1vh;
+  width: fit-content;
+  border-bottom: 1vh solid black;
+  line-height: 0.85;
+  padding-top: 0.83em;
+}
+.role-list .roles {
+  display: flex;
+  flex-direction: row;
+}
+
+.role-list .roles p {
+  margin-right: 5vh;
+  margin-top: 0.8em;
+}
+
+.one-liner {
+  width: 80vw;
+  margin-bottom: 1.85em;
+}
+
+/* SECTION - PROJECT BRIEF */
+.tags {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5em 0;
+}
+
+.tags h5 {
+  margin-right: 8vh;
+}
+
+.project-image {
+  transition: all 0.5s ease;
+}
+.project-image .img-link img {
+  width: 100%;
+}
+
+.project-brief h4 {
+  max-width: 65.5%;
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+/* SECTION - PROJECT */
+
+section.project-section .actual-content {
+  width: 90vw;
+  margin: auto;
+  margin-top: -2.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-section .section-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6em;
+}
+
+.section-content .section-number {
+  z-index: 1;
+}
+
+.section-content .white-number {
+  /* color: white; */
+}
+
+.project-section .description {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  margin-top: 1em;
+}
+
+.project-section .description .section-title {
+  width: 30.3vw;
+  line-height: 0.9;
+}
+
+.section-description {
+  /* width: 60%; */
+  width: 66%;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 7% 93%;
+}
+
+.section-description p {
+  margin: 0;
+  line-height: 1.25;
+  margin-top: 0.2em;
+}
+
+.section-description .lowertext-p {
+  margin-top: 1em;
+}
+
+.section-description .small-section-number {
+  width: 38%;
+  margin-top: 0.15em;
+}
+
+.section-description .second-description {
+  width: 31%;
+}
+
+/* SECTION - PROJECT CONTENT FOR INDIVIDUAL PROJECTS */
+
+/* Discontent Pt1 */
+.color-box {
+  background-color: white;
+  height: 14vh;
+  display: flex;
+}
+
+.color-box-red {
+  width: 28%;
+  background-color: #e81a1a;
+}
+
+section.project-section .discontent-images img:nth-child(2) {
+  margin-top: 2em;
+  width: 75vw;
+}
+
+/* Alex */
+
+.alex-grid {
+  display: grid;
+  grid-template-columns: 82% 18%;
+}
+
+.alex-grid img:first-child {
+  width: 98%;
+}
+
+.alex-grid img:last-child {
+  width: 100%;
+}
+
+section.project-section .alex-type {
+  margin-top: 0;
+}
+
+section.project-section .alex-type img:last-child {
+  margin-top: 2em;
+}
+
+.alex-scroll {
+  margin-top: 6em;
+}
+
+.alex-scroll .section-description {
+  width: 62%;
+  margin-left: 0.2em;
+}

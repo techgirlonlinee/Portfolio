@@ -28,11 +28,14 @@ const setUpCanvas = function (canvas) {
   const context = canvas.getContext("2d")//assign the context to 2d
   context.scale(dpi, dpi) //scaling for retina
   
-  context.fillStyle = "#B0EB34"
-  context.strokeStyle = "#B0EB34"
+  // context.fillStyle = "#B0EB34"
+  // context.strokeStyle = "#B0EB34"
+    context.fillStyle = "#33fff6"
+  context.strokeStyle = "#33fff6"
+  
   context.lineWidth = 80
   // context.blur = 59 + "px"
-  context.filter = 'blur(13px)';
+  // context.filter = 'blur(13px)';
   context.lineCap = "round"
   context.lineJoin = "round"
 }
