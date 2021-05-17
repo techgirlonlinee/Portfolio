@@ -67,6 +67,12 @@ nav {
   position: fixed;
   right: 40px;
   z-index: 2;
+  display:flex;
+}
+
+.time p {
+  margin: 0;
+  padding-left: 0.53em;
 }
 
 .selected-link {
@@ -288,7 +294,9 @@ section.intro {
 .overlay p {
   color: #0000e4;
   /* text-decoration-line: underline; */
-      font-size: 35vh;
+      /* font-size: 35vh; */
+       font-size: 24vh;
+       letter-spacing: -0.02em;
     margin: 0;
     line-height: 0.8em;
       transition: all 0.5 ease-in-out;
@@ -309,11 +317,12 @@ section.intro {
   /* background-color: rgb(237 237 237 / 80%); */
   /* orange */
        /* background-color: rgb(255 81 14 / 85%); */
-         background-color: rgb(242 0 0 / 90%);
+         /* this oneeee */
+         /* background-color: rgb(242 0 0 / 90%); */
        /* pink */
   /* background-color: rgb(253 0 187 / 85%); */
 
-
+background-color: white;
   /* border-radius: 12%; */
   /* transition: all 0.3s ease-in-out; */
 }
@@ -418,14 +427,6 @@ section.intro {
   .enjoys-section {
     width: 20.4%;
   }
-  .project-description,
-  .roles {
-    /* font-size: 16px; */
-    /* font-size: 1.5vw; */
-  }
-  /* .project-description {
-    max-width: 100%;
-  } */
 }
 
 @media(max-width: 850px) {
