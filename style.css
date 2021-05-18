@@ -36,6 +36,9 @@ canvas {
   z-index: -1;
 }
 
+.wallpaper {
+  display: none;
+}
 /* GLOBAL */
 a {
   color: #0000e4;
@@ -608,6 +611,10 @@ section.intro {
   .intro-text {
     margin-top: 1vh;
   }
+
+  .normal-top-margin {
+    margin-top: 9vh;
+  }
 }
 
 @media (max-width: 380px) {
@@ -617,5 +624,17 @@ section.intro {
   }
   .name {
     margin-left: 3.1vh;
+  }
+}
+
+@media (max-width: 336px) {
+  body,
+  nav,
+  h2 {
+    font-size: 16px;
+  }
+  .skills-list p,
+  .info-section__text {
+    font-size: 15.4px;
   }
 }
