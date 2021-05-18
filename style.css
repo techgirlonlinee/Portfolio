@@ -14,9 +14,9 @@ div.cursor {
   top: 50%;
   left: 50%;
 
-  width: 10px;
+  /* width: 10px;
   height: 10px;
-  border-radius: 50%;
+  border-radius: 50%; */
   background-color: #29044a;
   transform: translate(-50%, -50%);
   transition: width 0.25s, height 0.25s;
@@ -60,6 +60,9 @@ nav {
   z-index: 2;
 }
 
+.skills-smaller-screen {
+  display:none;
+}
 .mobile-ig {
   display: none;
 }
@@ -169,8 +172,6 @@ section.intro {
 
 .project-description {
   margin: 0;
-  /* margin: 8px 0; */
-  /* max-width: 50%; */
   max-width: 100%;
 
   line-height: 1.5;
@@ -178,14 +179,8 @@ section.intro {
 
 .project-description,
 .roles {
-  /* font-size: 16px; */
-  /* font-size: 1.128vw; */
 }
 
-/* .roles {
-  display: flex;
-  flex-direction: row;
-} */
 
 .role-list {
   position: absolute;
@@ -227,7 +222,6 @@ section.intro {
 }
 
 /* PROJECTS */
-
 .last-project {
   margin-bottom: 10vh;
 }
@@ -255,9 +249,9 @@ section.intro {
   width: 0;
   padding-bottom: calc(10 / 16 * 100%);
 }
-.discontenti .project-image.video:before {
+/* .discontenti .project-image.video:before {
   padding-bottom: calc(9 / 16 * 100%);
-}
+} */
 .project-image.video .img-link {
   position: absolute;
   left: 0;
@@ -381,6 +375,21 @@ background-color: white;
 
 /* DIFFERENT SCREEN SIZES */
 
+@media(max-width: 1240px) {
+  p {
+    font-size: 16px;
+  }
+  nav, .name, .time{
+    font-size: 16px;
+  }
+  .skills-bigger-screen {
+  display:none;
+}
+  .skills-smaller-screen {
+  display:flex;
+}
+}
+
 @media(max-width: 1280px) {
   .intro-text {
     margin-top: 4vh;
@@ -408,13 +417,16 @@ background-color: white;
   }
 }
 
+/* @media(max-width: 1028px) {
+
+} */
 @media(max-width: 1024px) {
   .text-sm-top-margin {
     margin-top: 0vh;
   }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1130px) {
   body {
     font-size: 16px;
   }
@@ -447,9 +459,18 @@ background-color: white;
   .intro-text {
     width: 100%;
   }
+  .selected-works {
+    display: none;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
   .enjoys-section {
-    width: 100%;
-    margin-top: 0;
+    /* width: 100%;
+    margin-top: 0; */
+    display: none;
   }
   .skills-list {
     display: flex;
@@ -468,7 +489,7 @@ background-color: white;
   }
 
   .role-list {
-        position: absolute;
+        /* position: absolute;
     margin-top: -3.5vh;
     right: 0;
     transform: rotate(
@@ -478,15 +499,28 @@ background-color: white;
     justify-content: flex-end;
     margin-left: -3.2%;
     opacity: 0.4;
+        top: 100%;
+    margin-top: 0.8em;
+    margin-top: 3em;
+    left: 0;
+    justify-content: flex-start;
+     */
+     display: none;
   }
 
   .project-description,
   .roles {
-        font-size: 14px;
+        font-size: 16px;
   }
 
   .project-description {
    line-height: 1.2;
+  }
+}
+
+@media(max-width: 724px) {
+  h1 {
+    font-size: 9.5vw;
   }
 }
 
