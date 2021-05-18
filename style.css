@@ -539,8 +539,12 @@ section.intro {
   body {
     font-size: 18px;
     margin: 20px 24px;
+    margin-right: 12px;
   }
 
+  h1 {
+    display: none;
+  }
   .name {
     position: unset;
     z-index: 2;
