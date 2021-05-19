@@ -303,6 +303,12 @@ section.project-section .alex-type img:last-child {
   margin-left: 0.2em;
 }
 
+/* Discontent Pt2 */
+
+.dis-last-section {
+  margin-bottom: 6em;
+}
+
 @media (max-width: 1130px) {
   body {
     font-size: 16px;
@@ -438,6 +444,7 @@ section.project-section .alex-type img:last-child {
     font-size: 18px;
     margin: 20px 24px;
     margin-right: 12px;
+    overflow-x: hidden;
   }
 
   .name {
@@ -557,7 +564,7 @@ section.project-section .alex-type img:last-child {
   .section-description p {
     margin-top: 1em;
     font-size: 14px;
-    margin-right: 20px;
+    margin-right: 24px;
   }
 
   section.project-section .actual-content {
@@ -566,6 +573,10 @@ section.project-section .alex-type img:last-child {
 
   .project-section .section-content {
     margin-top: 3em;
+  }
+
+  .project-section .description .section-title {
+    width: 100%;
   }
 
   .no-margin {
@@ -600,6 +611,22 @@ section.project-section .alex-type img:last-child {
   }
   img {
     height: auto;
+  }
+
+  .endlink-top {
+    margin-top: 3em;
+  }
+
+  .hide-link {
+    display: none;
+  }
+
+  .added-margin {
+    margin-top: 3em;
+  }
+
+  .dis-last-section {
+    margin-bottom: 0;
   }
 }
 
