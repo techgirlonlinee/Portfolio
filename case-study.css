@@ -610,7 +610,7 @@ section.project-section .alex-type img:last-child {
     display: none;
   }
   img {
-    height: auto;
+    height: 100%;
   }
 
   .endlink-top {
