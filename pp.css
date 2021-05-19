@@ -379,7 +379,7 @@ section.page-intro div {
   }
 }
 
-/* @media (max-width: 336px) {
+@media (max-width: 336px) {
   body,
   nav,
   h2,
@@ -387,4 +387,4 @@ section.page-intro div {
   h4 {
     font-size: 16px;
   }
-} */
+}
