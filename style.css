@@ -13,10 +13,6 @@ div.cursor {
   position: absolute;
   top: 50%;
   left: 50%;
-
-  /* width: 10px;
-  height: 10px;
-  border-radius: 50%; */
   background-color: #29044a;
   transform: translate(-50%, -50%);
   transition: width 0.25s, height 0.25s;
@@ -481,22 +477,6 @@ section.intro {
   }
 
   .role-list {
-    /* position: absolute;
-    margin-top: -3.5vh;
-    right: 0;
-    transform: rotate(
-0
-) translateX(0%);
-    display: flex;
-    justify-content: flex-end;
-    margin-left: -3.2%;
-    opacity: 0.4;
-        top: 100%;
-    margin-top: 0.8em;
-    margin-top: 3em;
-    left: 0;
-    justify-content: flex-start;
-     */
     display: none;
   }
 
@@ -507,6 +487,7 @@ section.intro {
 
   .project-description {
     line-height: 1.2;
+    font-size: 14px;
   }
 }
 
