@@ -557,6 +557,7 @@ section.project-section .alex-type img:last-child {
   .section-description p {
     margin-top: 1em;
     font-size: 14px;
+    margin-right: 20px;
   }
 
   section.project-section .actual-content {
@@ -596,6 +597,9 @@ section.project-section .alex-type img:last-child {
 
   .alex-scroll {
     display: none;
+  }
+  img {
+    height: auto;
   }
 }
 
