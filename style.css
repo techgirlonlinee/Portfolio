@@ -94,6 +94,8 @@ h1 {
   font-size: 7vw;
   line-height: 1.05;
   letter-spacing: -1px;
+  cursor: default;
+  user-select: none;
 }
 
 section.intro {
@@ -113,6 +115,8 @@ section.intro {
 .enjoys-section {
   width: 15.5%;
   margin-top: 3.8vw;
+  cursor: default;
+  user-select: none;
 }
 
 .skills-list {
@@ -359,19 +363,6 @@ section.intro {
   }
 }
 
-@media (max-width: 380px) {
-  .bullet2 {
-    font-size: 8vw;
-    line-height: 0.75;
-  }
-}
-
-@media (max-width: 295px) {
-  .bullet2 {
-    line-height: 0.8;
-  }
-}
-
 /* DIFFERENT SCREEN SIZES */
 
 @media (max-width: 1240px) {
@@ -546,8 +537,17 @@ section.intro {
   }
 
   h1 {
-    display: none;
+    /* display: none; */
+
+    display: flex;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: -0.2px;
+    margin-top: 0em;
+
+    width: 86%;
   }
+
   .name {
     position: unset;
     z-index: 2;
@@ -617,6 +617,12 @@ section.intro {
   }
 }
 
+@media (max-width: 490px) {
+  h1 {
+    width: 100%;
+  }
+}
+
 @media (max-width: 380px) {
   section.intro,
   section.projects {
@@ -630,7 +636,8 @@ section.intro {
 @media (max-width: 336px) {
   body,
   nav,
-  h2 {
+  h2,
+  h1 {
     font-size: 16px;
   }
   .skills-list p,
