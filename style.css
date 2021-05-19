@@ -50,6 +50,8 @@ a:hover {
 .name {
   position: fixed;
   z-index: 2;
+  cursor: default;
+  user-select: none;
 }
 
 nav {
@@ -70,6 +72,8 @@ nav {
   right: 40px;
   z-index: 2;
   display: flex;
+  cursor: default;
+  user-select: none;
 }
 
 .time p {
@@ -152,6 +156,8 @@ section.intro {
 .selected-works {
   font-style: italic;
   margin-top: 10vh;
+  cursor: default;
+  user-select: none;
 }
 
 /* PROJECT DESCRIPTION */
@@ -178,6 +184,8 @@ section.intro {
   max-width: 100%;
 
   line-height: 1.5;
+  cursor: default;
+  user-select: none;
 }
 
 .project-description,
@@ -192,6 +200,8 @@ section.intro {
   display: flex;
   justify-content: flex-end;
   margin-left: -3.2%;
+  cursor: default;
+  user-select: none;
 }
 .roles {
   display: flex;
@@ -584,11 +594,9 @@ section.intro {
     margin-left: 4vh;
   }
 
-  /* h2 {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.34;
-  } */
+  .overlay p {
+    font-size: 3vh;
+  }
   h1 {
     /* font-size: 24px; */
     font-size: 18px;
