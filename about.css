@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "Helveticaa";
+  src: url("font/Helveticaa.woff2") format("woff2"),
+    url("font/Helveticaa.woff") format("woff"),
+    url("font/Helveticaa.ttf") format("truetype");
+  /* font-weight: 500; */
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helveticaa, Helvetica, Arial, sans-serif;
   font-size: 1.4vw;
   line-height: 1.5;
   height: 100vh;
@@ -18,7 +28,6 @@ a:hover {
 }
 
 /* NAV */
-
 .mobile-ig {
   display: none;
 }
@@ -27,15 +36,6 @@ a:hover {
   position: fixed;
   z-index: 2;
 }
-
-/* nav {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  left: unset;
-  transform: rotate(0deg) translateX(0%);
-} */
 
 nav {
   position: fixed;
@@ -132,14 +132,6 @@ section.cv {
   }
 
   .name {
-    /* position: unset;
-    z-index: 2;
-    margin-top: 0px;
-    font-size: 2em;
-    margin: 0;
-    line-height: 0.9;
-    margin-left: 5.5vh; */
-    /* position: fixed; */
     position: unset;
     z-index: 2;
     margin-top: 0;
@@ -161,9 +153,7 @@ section.cv {
   }
 
   h2 {
-    /* font-size: 20px; */
     font-size: 18px;
-    /* line-height: 1.28; */
     line-height: 1.34;
   }
 

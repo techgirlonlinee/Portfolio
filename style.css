@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "Helveticaa";
+  src: url("font/Helveticaa.woff2") format("woff2"),
+    url("font/Helveticaa.woff") format("woff"),
+    url("font/Helveticaa.ttf") format("truetype");
+  /* font-weight: 500; */
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helveticaa, Helvetica, Arial, sans-serif;
   /* font-size: 20px; */
   font-size: 1.4vw;
   line-height: 1.5;
