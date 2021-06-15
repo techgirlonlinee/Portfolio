@@ -309,6 +309,37 @@ section.project-section .alex-type img:last-child {
   margin-bottom: 6em;
 }
 
+/* Vacuna Ruc */
+
+.no-margin-top {
+  margin-top: 1em !important;
+}
+.h4-body-descript {
+  max-width: 65.5%;
+  margin-left: auto;
+  margin-bottom: 2em;
+  line-height: 1.2;
+  margin-top: 1em;
+}
+
+p.vacuna-margin-r {
+  margin-right: 4em;
+}
+
+p.bold {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+div.lower-descript {
+  margin-top: 2em !important;
+}
+
+img.v-wireframe {
+  width: 20vw;
+  margin-top: 0.08em;
+}
+
 @media (max-width: 1130px) {
   body {
     font-size: 16px;
