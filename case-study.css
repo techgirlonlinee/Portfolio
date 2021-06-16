@@ -311,6 +311,9 @@ section.project-section .alex-type img:last-child {
 
 /* Vacuna Ruc */
 
+.vacuna-cover {
+  width: 100%;
+}
 .no-margin-top {
   margin-top: 1em !important;
 }
@@ -340,6 +343,10 @@ img.v-wireframe {
   margin-top: 0.08em;
 }
 
+.added-margin {
+  margin-bottom: 2em !important;
+}
+
 @media (max-width: 1130px) {
   body {
     font-size: 16px;
@@ -354,6 +361,14 @@ img.v-wireframe {
   }
   .tags h5 {
     font-size: 16px;
+  }
+
+  .section-description {
+    display: flex;
+    flex-direction: column;
+  }
+  img.v-wireframe {
+    width: 26vw;
   }
 }
 
@@ -434,6 +449,10 @@ img.v-wireframe {
   }
   section.project-section .actual-content {
     margin-top: 0.5em;
+  }
+
+  div.projects-nav {
+    flex-direction: column;
   }
 }
 
@@ -608,6 +627,13 @@ img.v-wireframe {
 
   .project-section .description .section-title {
     width: 100%;
+    /* not sure */
+    display: flex;
+  }
+
+  img.v-wireframe {
+    width: 48vw;
+    margin: auto;
   }
 
   section.project-section .discontent-images img:nth-child(2) {
@@ -627,11 +653,6 @@ img.v-wireframe {
   .case-study-roles {
     display: flex;
   }
-
-  div.projects-nav {
-    flex-direction: column;
-  }
-
   .tags h5 {
     font-size: 14px;
   }
@@ -664,11 +685,27 @@ img.v-wireframe {
   .dis-last-section {
     margin-bottom: 0;
   }
+
+  .vac-title {
+    display: flex !important;
+  }
+
+  .hide-num {
+    margin-right: 0.2em;
+  }
+
+  .vac-descript {
+    display: none !important;
+  }
 }
 
 @media (max-width: 480px) {
   section.page-intro {
     padding-top: 1vh;
+  }
+
+  img.v-wireframe {
+    width: 68vw;
   }
 }
 
